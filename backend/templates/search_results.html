@@ -1,0 +1,9 @@
+<!-- templates/search_results.html -->
+<h1>Retrieve Song By Username</h1>
+<ul>
+  {% for ratings in object_list %}
+    <li>
+      {{ ratings.song }}, {{ ratings.ratings}}
+    </li>
+  {% endfor %}
+</ul>

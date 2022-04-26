@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "song-rater-rna",
+    "slug": "song-rater-rna",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
