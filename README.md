@@ -56,8 +56,8 @@ Next, run the following commands to install the proper packages and start up the
 ```shell
 cd frontend
 cd song-rater-rna
-npm i
-npm start (or expo start)
+npm install
+expo start
 ```
 
 If you go to <localhost:3000>, you will see the app.
