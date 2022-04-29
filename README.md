@@ -1,4 +1,8 @@
-# React Django Song Rater Website Start-Up
+# Running Team 13's Song Rater App (React Native Edition!)
+
+Our Django backend & Firebase frontend can be found at the following URLs:
+* <https://song-jab.herokuapp.com/api/>
+* <https://song-jabber-2d31b.firebaseapp.com/>
 
 ## Running the Django backend
 
@@ -28,7 +32,9 @@ python3 manage.py runserver
 
 In <localhost:8000>, the backend should be running.
 
-## Running the React frontend
+## Running the React Native frontend
+
+(**NOTE:** We unfortunately could not get our app to run in full functionality within the iOS simulator, but please do follow the instructions outlined below to run the app for yourself!)
 
 For macOS, install node.js and npm via homebrew using `brew install node`. Use
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
@@ -49,8 +55,9 @@ Next, run the following commands to install the proper packages and start up the
 
 ```shell
 cd frontend
+cd song-rater-rna
 npm i
-npm start
+npm start (or expo start)
 ```
 
 If you go to <localhost:3000>, you will see the app.
